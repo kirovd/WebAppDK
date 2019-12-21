@@ -1,38 +1,70 @@
 ﻿@page
 @model AboutModel
 @{
-    ViewData["Title"] = "About Me";
+
 }
 <h2>@ViewData["Title"]</h2>
 
+<div class="col-sm-12">
+    <div class="view">
+        <div class="plane main" style=" padding-left: 150px;">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+    <img src="~/images/gif.gif" class="drone">
+</div>
+<div class="col-sm-12">
+    <div class="view">
+        <div class="plane main" style=" padding-right: 300px;">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+</div>
+<div class="col-sm-12">
+    <div class="view">
+        <div class="plane main" style=" padding-bottom: 350px;">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+</div>
+<legend class="contact-legend">About Me</legend>
 <div class="jumbotronn">
     <h3 class="h3">Profile</h3>
-    <p class="p">. I discovered my passion for software development when I was a teenager. As the passion grew stronger, I decided to improve in all the various programming languages. Considering the opportunities and hard work during these years of development, it has provided me with the skills I need today. I am most confident with <u>HTML5</u>, <u>CSS3</u>, <u>JavaScript</u>, <u>PHP</u>, <u>Python</u> and <u>Java</u>. Moreover, I am currently improving my understanding for the neural network processes of a machine and its existence.  </p><br>
+    <p class="p">. I discovered my passion for software development when I was a teenager. As the passion grew stronger, I decided to improve in all the various programming languages. Considering the opportunities and hard work during these years of development, it has provided me with the skills I need today. I am most confident with <u>HTML5</u>, <u>CSS3</u>, <u>JavaScript</u>, <u>PHP</u>, <u>mySQL</u>, <u>phpMyAdmin</u>, <u>ASP.NET</u>, <u>Python</u> and <u>Java</u>. Moreover, I am currently improving my understanding for the neural network processes of a machine and its existence.  </p><br>
     <p class="p">. Recently graduated in <b>Software Engineering</b> from <b>University of Greenwich (London)</b> with a demonstrated background knowledge of both university and personal projects. </p><br />
     <p class="p">
         . As for hobbies, I enjoy practising the technical skills even if it takes hours. I love it.
         Otherwise, I prefer to exercise while not practising on my computer skills; whether its the gym or play sports. Occasionally, I squeeze in my time to play some of my favourite computer games as it is leading to my relaxation and imagination to later put into reality for my work. Characteristically, I can define myself as a performer. I like to get the job done. period. Also I can consider myself as a motivator. I prefer to motivate people/team so that the job at hand is done according to the deadline. Learning new skills is an important step to a successful life.
     </p><br />
-    <p class="p">. Find attachment of my CV on pdf file <a href="CV-Dejan%20Kirov-Web.pdf" target="_blank"><u><b>CV</b></u></a>. </p>
-    <p class="p">. If you have any queries and you would like to know more, please feel free to <a asp-page="/Contact"><b>Contact Me</b></a>. </p>
+    <p class="p">. Find attachment of my CV on pdf file <a href="~/images/CV-Dejan-Kirov-Web.pdf" target="_blank"><u><b>CV</b></u></a>. </p>
+    <p class="p">. If you have any queries and you would like to know more, please feel free to <a asp-page="/ContactMe"><b>Contact Me</b></a>. </p>
 
 </div>
 
 
 
 
-        <br />
-        <div class="jumbotronn">
-            <h3 class="h3">Technical Skills</h3>
-            <div class="col-sm-6">
-                <p class="p">
-                    This bar represents the knowledge level of the technical skills provided. I have mostly experience in HTML5/CSS3/Python/Android/Kotlin/
-                    JavaScript/PHP. I am also improving the existing programming languages, such as MySQL/SQLite, Fortran, and C# etc.
-                </p>
-            </div>
-            <img src="bar.png" class="img-thumbnail">
+<br />
+<div class="jumbotronn">
+    <h3 class="h3">Technical Skills</h3>
+    <div class="col-sm-6">
+        <p class="p">
+            This bar represents the knowledge level of the technical skills provided. I have mostly experience in HTML5/CSS3/mySQL/phpMyAdmin/SQL/ASP.NET/
+            Python/Android/Kotlin/JavaScript/PHP/Github/Git.<br />
+            I am also improving the existing programming languages/frameworks, such as React, Django, Fortran, and C# etc.
+        </p>
+    </div>
+    <img src="~/images/bar.png" class="img-thumbnail">
 
-        </div>
+</div>
+<br>
+<legend class="contact-legend"></legend>
 
-    
+
 
